@@ -1,0 +1,26 @@
+li, a {
+    text-decoration: none;
+    color: #ffffff;
+    display: inline;
+    font-family: Aperculight;
+    font-size: 1.6rem;
+    padding: 0px 9.5px;
+}
+img {
+    width: 165px;
+    margin-left: -18px;
+    margin-right: 25px;
+}
+ul {
+    align-items: center;
+    margin-right: 20px;
+}
+header {
+    padding: 8px 0px;
+}
+.getbutton{
+ border: 1px solid #ffffff;
+ padding: 15px 16.5px;
+ font-size: 14px;
+ border-radius: 25px;
+}
