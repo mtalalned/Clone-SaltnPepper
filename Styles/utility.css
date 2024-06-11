@@ -10,6 +10,10 @@ html {
     font-family: Aperculight;
     src: url(../Fonts/Apercu\ Light.otf);
 }
+@font-face {
+    font-family: "Prolight";
+    src: url(../Fonts/ApercuPro-ExtraLight.ttf);
+}
 body {
     background-color: #000000;
 }
@@ -49,6 +53,17 @@ body {
 .text-white {
     color: #ffffff;
 }
+.text-red{
+    color: #ed1c24;
+}
 .align-center {
     align-items: center;
+}
+@font-face {
+    font-family: "futurak";
+    src: url(../Fonts/futurablack-bt.ttf);
+}
+@font-face {
+    font-family: Poppinslight;
+    src: url(../Fonts/Poppins-Light.ttf);
 }
