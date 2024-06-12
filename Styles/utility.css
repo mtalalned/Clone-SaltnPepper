@@ -67,3 +67,27 @@ body {
     font-family: Poppinslight;
     src: url(../Fonts/Poppins-Light.ttf);
 }
+.px12 {
+    font-size: 12px;
+}
+.px14 {
+    font-size: 14px;
+}
+.px24 {
+    font-size: 24px;
+}
+.aperculight {
+    font-family: Aperculight;
+}
+.poppinslight {
+    font-family: Poppinslight;
+}
+.futurak {
+    font-family: futurak;
+}
+.text-gray {
+    color: #FFFFFFB3;
+}
+.letter-space {
+    letter-spacing: 7.5px;
+}
