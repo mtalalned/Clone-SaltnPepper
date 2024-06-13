@@ -64,6 +64,10 @@ body {
     src: url(../Fonts/futurablack-bt.ttf);
 }
 @font-face {
+    font-family: "futura";
+    src: url(../Fonts/futur.ttf);
+}
+@font-face {
     font-family: Poppinslight;
     src: url(../Fonts/Poppins-Light.ttf);
 }
@@ -82,6 +86,12 @@ body {
 .px32 {
     font-size: 32px;
 }
+.px21 {
+    font-size: 21px;
+}
+.px10 {
+    font-size: 10px;
+}
 .aperculight {
     font-family: Aperculight;
 }
@@ -96,4 +106,10 @@ body {
 }
 .letter-space {
     letter-spacing: 7.5px;
+}
+.letter-space1 {
+    letter-spacing: 5px;
+}
+.bold {
+    font-weight: bold;
 }
