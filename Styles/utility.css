@@ -76,6 +76,12 @@ body {
 .px24 {
     font-size: 24px;
 }
+.px16 {
+    font-size: 16px;
+}
+.px32 {
+    font-size: 32px;
+}
 .aperculight {
     font-family: Aperculight;
 }
