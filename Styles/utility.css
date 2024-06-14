@@ -68,11 +68,18 @@ body {
     src: url(../Fonts/futur.ttf);
 }
 @font-face {
+    font-family: "futuran";
+    src: url(../Fonts/futurablack-bt.ttf);
+}
+@font-face {
     font-family: Poppinslight;
     src: url(../Fonts/Poppins-Light.ttf);
 }
 .px12 {
     font-size: 12px;
+}
+.px18{
+    font-size: 18px;
 }
 .px14 {
     font-size: 14px;
@@ -134,4 +141,7 @@ body {
 }
 .flow-col {
     flex-flow: column;
+}
+.thin {
+    font-weight: lighter;
 }
