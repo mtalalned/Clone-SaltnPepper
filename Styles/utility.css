@@ -101,6 +101,9 @@ body {
 .px52 {
     font-size: 52px;
 }
+.px48 {
+    font-size: 48px;
+}
 .aperculight {
     font-family: Aperculight;
 }
@@ -124,4 +127,8 @@ body {
 }
 .text-center {
     text-align: center;
+}
+@font-face {
+    font-family: "butler";
+    src: url(../Fonts/Butler_Regular.woff);
 }
