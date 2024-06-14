@@ -263,7 +263,7 @@ img {
     background-color:#0f0f0f;
     padding-top: 25px;
     height: 95vh;
-    padding-bottom: 1px;
+    margin-bottom: 50px;
 }
 .container3 {
     border: 1px solid white;
@@ -323,7 +323,12 @@ img {
     margin-bottom: 65px;
 }
 /* Village Franchise Ended */
-
+.of1{
+    margin-top: 100px;
+}
+.of2 {
+    margin-bottom: 30px;
+}
 .grandcontainer1{
     border: 1px solid white;
     width: 100%;
