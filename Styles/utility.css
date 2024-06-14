@@ -45,7 +45,7 @@ body {
     justify-content: space-evenly;
 }
 .back-black {
-    background-color: black;
+    background-color: #000000;
 }
 .back-red{
     background-color: #ed1c24;
@@ -61,7 +61,7 @@ body {
 }
 @font-face {
     font-family: "futurak";
-    src: url(../Fonts/futurablack-bt.ttf);
+    src: url(../Fonts/futurak.ttf);
 }
 @font-face {
     font-family: "futura";
@@ -92,6 +92,15 @@ body {
 .px10 {
     font-size: 10px;
 }
+.px15 {
+    font-size: 15px;
+}
+.px40 {
+    font-size: 40px;
+}
+.px52 {
+    font-size: 52px;
+}
 .aperculight {
     font-family: Aperculight;
 }
@@ -112,4 +121,7 @@ body {
 }
 .bold {
     font-weight: bold;
+}
+.text-center {
+    text-align: center;
 }
