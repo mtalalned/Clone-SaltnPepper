@@ -1,3 +1,8 @@
+/* NAV Bar Started */
+.nav {
+    row-gap: 5px;
+}
+
 li{
     text-decoration: none;
     color: #ffffff;
@@ -21,6 +26,7 @@ li{
 ul {
     align-items: center;
     margin-left: 60px;
+    row-gap: 35px;
 }
 header {
     padding: 8px 0px;
@@ -52,12 +58,19 @@ header {
     padding: 6px 7px;
     border-radius: 16px;
 }
+/* NAV Bar Ended */
+
+/* Banner Started  */
 .banner {
     width: 100%;
     margin: 0 auto;
 }
+/* Banner Ended */
 
 /* Brands Started */
+.container {
+    row-gap: 35px;
+}
 .Brands {
     padding-top: 60px;
     padding-bottom: 175px;
@@ -109,8 +122,8 @@ h2 {
 /* Franchises Started */
 .Franchises {
     background-color: #0f0f0f;
-    width: 100%;
-    height: 195vh;
+    width: 0 auto;
+    max-height: 195vh;
 }
 .Slogo {
     position: relative;
@@ -127,6 +140,17 @@ h2 {
 .franch2 {
     margin-bottom: 48px;
     margin-top: 12px;
+}
+
+.grand-container {
+    padding: 0px 70px;
+    row-gap: 20px;;
+    position: relative;
+    top: -410px;
+}
+.container1 {
+    justify-content: center;
+    row-gap: 25px;
 }
 .p1 {
     letter-spacing: 8px;
@@ -174,20 +198,14 @@ h2 {
     width: 100%;
     height: 100%;
 }
-.container1 {
-    justify-content: center;
-}
-.grand-container {
-    padding: 0px 70px;
-    row-gap: 20px;;
-    position: relative;
-    top: -410px;
-}
+
 /* Franchises End */
 
 /* Express Franchises Start */
 .ExpressFranchise {
     width: 100%;
+    background-color: #000000;
+    height: 345vh;
 }
 
 .expresslogo {
@@ -240,12 +258,19 @@ img {
 }
 /* Express Franchises End */
 
+/* Village Franchise Started */
+.VILLAGE {
+    background-color:#0f0f0f;
+    padding-top: 25px;
+    height: 95vh;
+    padding-bottom: 1px;
+}
 .container3 {
     border: 1px solid white;
     height: 100%;
     width: 100%;
     row-gap: 25px;
-    margin-top: 250px;
+    margin-top: 25px;
     margin-bottom: 250px;
 }
 .test {
@@ -255,6 +280,12 @@ img {
     border: 1px solid white;
     height: 371px;
     width: 647.63px;
+}
+.box3a {
+    border: 1px solid white;
+    height: 371px;
+    width: 647.63px;
+    padding-left: 25px;
 }
 .fig-height {
     height: 100%;
@@ -278,6 +309,21 @@ img {
     padding: 6px 10px;
     border-radius: 16px;
 }
+.vf1 {
+    margin-bottom: 5px;
+    margin-top: 50px;
+}
+.vf2 {
+    margin-bottom: 25px;
+}
+.vf3 {
+    margin-bottom: 7.5px;
+}
+.vf4 {
+    margin-bottom: 65px;
+}
+/* Village Franchise Ended */
+
 .grandcontainer1{
     border: 1px solid white;
     width: 100%;
