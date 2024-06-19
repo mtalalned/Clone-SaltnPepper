@@ -124,6 +124,7 @@ h2 {
     background-color: #0f0f0f;
     width: 0 auto;
     max-height: 195vh;
+    overflow: hidden;
 }
 .Slogo {
     position: relative;
@@ -206,6 +207,7 @@ h2 {
     width: 100%;
     background-color: #000000;
     height: 345vh;
+    overflow: hidden;
 }
 
 .expresslogo {
@@ -390,6 +392,7 @@ img {
 footer {
     background-color: #0f0f0f;
     height: 68vh;
+    overflow: hidden;
 }
 .slogob {
     position: relative;
