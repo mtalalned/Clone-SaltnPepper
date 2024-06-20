@@ -1,0 +1,80 @@
+/* NAV Bar Started */
+.nav {
+    row-gap: 5px;
+}
+
+li{
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-flex;
+    font-family: Aperculight;
+    font-size: 1.6rem;
+    padding: 0px 36px 0px 0px;
+}
+.listname {
+    text-decoration: none;
+    color: #ffffff;
+    display: inline;
+    font-family: Aperculight;
+    font-size: 1.6rem;
+}
+.logo {
+    width: 165px;
+    margin-left: 52px;
+    margin-right: 110px;
+}
+ul {
+    align-items: center;
+    margin-left: 60px;
+    row-gap: 35px;
+}
+header {
+    padding: 8px 0px;
+}
+.getbutton{
+ border: 1px solid #ffffff;
+ padding: 18px 16.5px;
+ font-size: 14px;
+ border-radius: 50px;
+ text-decoration: none;
+ color: #ffffff;
+}
+.orderbutton {
+    border: 1px solid #ed1c24;
+    background-color: #ed1c24;
+    padding: 18px 16.5px;
+    font-size: 14px;
+    border-radius: 50px;
+    margin-left: -25px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.icon{
+    width: 14px;
+    height: 16px;
+    background-color: #ffffff;
+    color: #ed1c24;
+    margin: 0px 0px 0px 7px;
+    padding: 6px 7px;
+    border-radius: 16px;
+}
+/* NAV Bar Ended */
+
+/* Introduction Started */
+.intro-main-div {
+    margin-top: 80px;
+}
+.intro-sub-main1 {
+    margin-bottom: 30px;
+}
+.intro-sub-main2 {
+    padding-left: 125px;
+    padding-right: 125px;
+    padding-bottom: 15px;
+    line-height: 23px;
+}
+
+
+
+
+/* Introduction Ended */

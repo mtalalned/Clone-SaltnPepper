@@ -90,6 +90,9 @@ body {
 .px16 {
     font-size: 16px;
 }
+.px20 {
+    font-size: 20px;
+}
 .px32 {
     font-size: 32px;
 }
@@ -110,6 +113,9 @@ body {
 }
 .px48 {
     font-size: 48px;
+}
+.px35 {
+    font-size: 35px;
 }
 .aperculight {
     font-family: Aperculight;
