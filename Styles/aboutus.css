@@ -73,8 +73,30 @@ header {
     padding-bottom: 15px;
     line-height: 23px;
 }
-
-
-
-
 /* Introduction Ended */
+
+/* Restaurant Started */
+.restaurant-main-div {
+    row-gap: 70px;
+    margin-top: 25px;
+}
+.res-s-sub-main1 {
+    margin-bottom: 25px;
+}
+.restaurant-sub-main-2 {
+    column-gap: 25px;
+}
+.res-s-sub-main2 {
+    width: 550px;
+    height: 286.52px;
+    padding-right: 15px;
+}
+.res-s-sub-main2a {
+    width: 550px;
+    height: 345px;
+}
+.img-size {
+    width: 100%;
+    height: 100%;
+}
+/* Restaurant Ended */

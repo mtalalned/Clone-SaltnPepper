@@ -151,3 +151,7 @@ body {
 .thin {
     font-weight: lighter;
 }
+.img-border-3px {
+    border: none;
+    border-radius: 3px;
+}
