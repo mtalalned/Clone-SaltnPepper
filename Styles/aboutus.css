@@ -127,8 +127,8 @@ header {
 /* Franchises for its Restaurants Ended */
 
 /* Epxress Started */
-.express-sub-main-1 {
-
+.express-main-div {
+    margin-top: 60px;
 }
 .exp-s-sub-main-1 {
     margin-bottom: 40px;
@@ -136,4 +136,46 @@ header {
 .exp-s-sub-main-2 {
     margin-bottom: 70px;
 }
+.express-sub-main-2 {
+    column-gap: 32.5px;
+}
+.exp-s-sub-main-3 {
+    width: 540px;
+    height: 325px;
+}
+.exp-s-sub-main-4 {
+    width: 540px;
+    height: 325px;
+}
+.exp-p {
+    margin-bottom: 10px;
+}
 /* Express Ended */
+
+/* Express Franchises Started */
+.exp-fran-main-div1 {
+    column-gap: 30px;
+    row-gap: 30px;
+}
+.exp-fran-sub-main-div1 {
+    background-color: #0f0f0f;
+    width: 351px;
+    height: 420px;
+    border: none;
+    border-radius: 10px;
+}
+.exp-fran-p {
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.exp-fran-ph {
+    margin: 20px 0px;
+}
+.exp-fran-sub-main-div2 {
+    width: 351px;
+    height: 420px;
+}
+.exp-fran-h2 {
+    margin: 50px 0px;
+}
+/* Express Franchises Ended */

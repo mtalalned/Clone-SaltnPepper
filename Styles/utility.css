@@ -155,3 +155,6 @@ body {
     border: none;
     border-radius: 3px;
 }
+.pad-13px {
+    padding: 13px;
+}
