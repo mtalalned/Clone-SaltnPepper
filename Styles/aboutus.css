@@ -100,3 +100,28 @@ header {
     height: 100%;
 }
 /* Restaurant Ended */
+
+/* Franchises for its Restaurants Started */
+.franchises-main-div {
+    row-gap: 70px;
+    margin-top: 25px;
+}
+.franchises-sub-main-1 {
+    margin-top: 35px;
+}
+.fran-s-sub-main1 {
+    margin-bottom: 25px;
+}
+.franchises-sub-main-2 {
+    column-gap: 25px;
+}
+.fran-s-sub-main2 {
+    width: 550px;
+    height: 255px;
+    padding-right: 15px;
+}
+.fran-s-sub-main2a {
+    width: 550px;
+    height: 255px;
+}
+/* Franchises for its Restaurants Ended */
