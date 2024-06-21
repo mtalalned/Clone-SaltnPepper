@@ -179,3 +179,109 @@ header {
     margin: 50px 0px;
 }
 /* Express Franchises Ended */
+
+/* Village Franchise Started */
+.village-main-div {
+    column-gap: 30px;
+    margin-bottom: 100px;
+}
+.village-sub-main-div {
+    width: 540px;
+    height: 280px;
+}
+.village-sub-main-div p:nth-child(2) {
+    margin-bottom: 24px;
+}
+.village-sub-main-div p:nth-of-type(3) {
+    margin-bottom: 10px;
+}
+.village-fran-heading :nth-child(1) {
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+/* Village Franchise Ended */
+
+/* Footer Started */
+.grandcontainer5 {
+    padding: 70px 0px 0px 0px;
+    row-gap: 25px;
+    position: relative;
+    top: -400px;
+}
+footer {
+    background-color: #0f0f0f;
+    height: 68vh;
+    overflow: hidden;
+}
+.slogob {
+    position: relative;
+    left: 30px;
+    top: 60px;
+}
+hr {
+    color: #222222;
+    font-weight: lighter;
+    width: 98%;
+    margin: 0 auto;
+    position: relative;
+    top: -375px;
+}
+.base {
+    position: relative;
+    top: -375px;
+}
+.box7 {
+    width: 35%;
+    height: 304px;
+    word-spacing: 2px;
+}
+.box8 {
+    width: 15%;
+    height: 304px;
+}
+.box9 {
+    width: 15%;
+    height: 304px;
+}
+.box10 {
+    width: 15%;
+    height: 304px;
+}
+.img-logo {
+    width: 140px;
+    height: 64px;
+    margin-bottom: 25px;
+}
+.pf1 {
+    padding-bottom: 24px;
+}
+.pf2 {
+    padding-bottom: 24px;
+}
+.pf3 {
+    padding-bottom: 16px;
+}
+.logos {
+    color: #ffffff;
+    background-color: #ed1c24;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 25px;
+}
+.logosf {
+    color: #ffffff;
+    background-color: #ed1c24;
+    font-size: 20px;
+    padding: 10px 14px;
+    border-radius: 25px;
+}
+.imgf {
+    margin-top: 15px;
+}
+.f1 {
+    width: 80%;
+}
+.f2{
+    margin: 10px 0px;
+}
+/* Footer Ended */
