@@ -47,9 +47,6 @@ html {
 /* NAVBAR ENDED */
 
 /* Feedback banner started */
-.feedback-banner-image {
-
-}
 .banner-text {
     position: absolute;
     top: 58%;
@@ -70,3 +67,28 @@ html {
     font-family: aperculight;
 }
 /* feedback banner ended */
+
+/* feedback form started */
+
+/* heading started */
+.feedback-heading {
+    margin: 0px 85px;
+}
+.heading-left {
+    padding: 0px 10px;
+    border-right: 1px dashed #ffffff;
+}
+.heading-right {
+
+}
+/* heading ended */
+
+/* food service started */
+
+.star-icon {
+    border-radius: 100px;
+    cursor: pointer;
+
+}
+/* food service ended */
+/* feedback form ended */
