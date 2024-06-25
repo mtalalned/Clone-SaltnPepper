@@ -78,9 +78,6 @@ html {
     padding: 0px 10px;
     border-right: 1px dashed #ffffff;
 }
-.heading-right {
-
-}
 /* heading ended */
 
 /* food service started */
@@ -88,7 +85,43 @@ html {
 .star-icon {
     border-radius: 100px;
     cursor: pointer;
-
 }
 /* food service ended */
+
+/* fullname / phone number started */
+.contact-main-div {
+    width: 100%;
+    height: 12%;
+}
+.contact-sub-main-div {
+    width: 47%;
+    height: 100%;
+}
+.fullname-phonenumber {
+    width: 100%;
+    height: 100%;
+}
+/* full name /phone number ended */
+
+/* date started */
+.date-main-div {
+   height: 12%;
+}
+
+/*  date ended */
+
+/* Suggestions started */
+.suggestions-main-div {
+    height: 30%;
+}
+/* Suggestions ended */
+
+/* menu started */
+.menu-main-div {
+    height: 12%;
+}
+.menu-sub-main-div{
+    width: 29.5%;
+}
+/* menu ended */
 /* feedback form ended */
