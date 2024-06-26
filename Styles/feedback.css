@@ -124,5 +124,8 @@ html {
 .food-consult-main-div :nth-child(2)>p {
     text-align: justify;
 }
+.map-sub-main-div :nth-child(1) {
+    font-weight: bold;
+}
 
 /* feedback form ended */
