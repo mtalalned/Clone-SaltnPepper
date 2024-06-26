@@ -67,7 +67,7 @@ html {
 
 /* fullname / phone number started */
 .contact-main-div {
-    height: 7%;
+    height: 50px;
 }
 .contact-sub-main-div {
     width: 47%;
@@ -80,20 +80,20 @@ html {
 
 /* date started */
 .date-main-div {
-   height: 7%;
+   height: 50px;
 }
 
 /*  date ended */
 
 /* Suggestions started */
 .suggestions-main-div {
-    height: 15%;
+    height: 125px;
 }
 /* Suggestions ended */
 
 /* menu started */
 .menu-main-div {
-    height: 16%;
+    height: 110px;
 }
 .menu-sub-main-div{
     width: 29.5%;
@@ -105,9 +105,24 @@ html {
     height: 58%;
 }
 .menu-radio-main {
-    height: 5%;
+    height: 65px;
 }
 /* menu ended */
 
+/* social media pages started */
+.social-main-div {
+    height: 65px;
+}
+/* social media pages ended */
+
+.heading-right {
+    padding: 0px 15px;
+}
+.food-consult-sub-main-div :nth-child(1) {
+    font-weight: bold;
+}
+.food-consult-main-div :nth-child(2)>p {
+    text-align: justify;
+}
 
 /* feedback form ended */
