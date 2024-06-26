@@ -16,33 +16,11 @@ html {
 
 /* NAVBAR STARTED */
 .icon{
-    width: 10%;
-    height: 16px;
     background-color: #ffffff;
     color: #ed1c24;
-    margin: 0px 0px 0px 7px;
-    padding: 6px 7px;
-    border-radius: 16px;
 }
 .orderbutton {
-    border: 1px solid #ed1c24;
     background-color: #ed1c24;
-    padding: 18px 16.5px;
-    border-radius: 50px;
-    margin-left: -25px;
-    text-decoration: none;
-    color: #ffffff;
-}
-.getbutton{
-    border: 1px solid #ffffff;
-    padding: 18px 16.5px;
-    border-radius: 50px;
-    text-decoration: none;
-    color: #ffffff;
-}
-.logo-saltnpepper {
-    width: 50%;
-    height: 100%;
 }
 /* NAVBAR ENDED */
 
@@ -83,15 +61,13 @@ html {
 /* food service started */
 
 .star-icon {
-    border-radius: 100px;
     cursor: pointer;
 }
 /* food service ended */
 
 /* fullname / phone number started */
 .contact-main-div {
-    width: 100%;
-    height: 12%;
+    height: 7%;
 }
 .contact-sub-main-div {
     width: 47%;
@@ -99,29 +75,39 @@ html {
 }
 .fullname-phonenumber {
     width: 100%;
-    height: 100%;
 }
 /* full name /phone number ended */
 
 /* date started */
 .date-main-div {
-   height: 12%;
+   height: 7%;
 }
 
 /*  date ended */
 
 /* Suggestions started */
 .suggestions-main-div {
-    height: 30%;
+    height: 15%;
 }
 /* Suggestions ended */
 
 /* menu started */
 .menu-main-div {
-    height: 12%;
+    height: 16%;
 }
 .menu-sub-main-div{
     width: 29.5%;
 }
+.menu-label {
+    height: 25%;
+}
+.menu-input {
+    height: 58%;
+}
+.menu-radio-main {
+    height: 5%;
+}
 /* menu ended */
+
+
 /* feedback form ended */
