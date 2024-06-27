@@ -26,20 +26,22 @@ html {
 
 /* Feedback banner started */
 .feedback-banner {
-    height: 125vh;
+    
 }
 .banner-figure {
     z-index: 1;
 }
 .banner-text {
+    width: 40%;
     position: relative;
     z-index: 2;
-    bottom: 50em;
+    bottom: 480px;
+    margin: 0 auto;
+    margin-bottom: -170px;
 }
 .banner-text :nth-child(1)>p {
     font-size: 4.267rem;
     font-family: aperculight;
-
 }
 .banner-text :nth-child(2)>h2 {
     font-size: 10rem;
@@ -47,7 +49,7 @@ html {
 }
 .banner-text :nth-child(3)>p {
     font-size: 2rem;
-    font-family: aperculight;
+    font-family: aperculight ;
 }
 /* feedback banner ended */
 
@@ -165,12 +167,21 @@ html {
 /* menu ended */
 
 /* social media pages started */
+.social-heading {
+    height: fit-content;
+}
 .social-main-div {
-    height: 65px;
+    width: 100%;
+    height: fit-content;
+}
+.social-sub-main-div {
+    width: fit-content;
+    border: 2px solid purple;
+
 }
 /* social media pages ended */
 
-.heading-right {
+.heading-right-main {
     padding: 0px 15px;
 }
 .food-consult-sub-main-div :nth-child(1) {
