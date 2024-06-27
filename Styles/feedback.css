@@ -51,10 +51,15 @@ html {
 /* heading started */
 .feedback-heading {
     margin: 0px 85px;
+    max-width: 100%;
 }
 .heading-left {
     padding: 0px 10px;
     border-right: 1px dashed #ffffff;
+    max-width: 50%;
+}
+.heading-right {
+    max-width: 50%;
 }
 /* heading ended */
 
@@ -67,11 +72,11 @@ html {
 
 /* fullname / phone number started */
 .contact-main-div {
-    height: 50px;
+    min-width: 100%;
 }
 .contact-sub-main-div {
-    width: 47%;
-    height: 100%;
+    min-width: 47%;
+    height: 45px;
 }
 .fullname-phonenumber {
     width: 100%;
@@ -80,29 +85,42 @@ html {
 
 /* date started */
 .date-main-div {
-   height: 50px;
+   min-width: 100%;
 }
-
+.date-sub-main-div {
+    height: 45px;
+}
 /*  date ended */
 
 /* Suggestions started */
 .suggestions-main-div {
+    /* height: 125px; */
+    min-width: 100%;
+}
+.suggestions-sub-main-div {
     height: 125px;
 }
 /* Suggestions ended */
 
 /* menu started */
 .menu-main-div {
-    height: 110px;
+    max-width: 100%;
 }
 .menu-sub-main-div{
-    width: 29.5%;
+    min-width: 100%;
+    height: fit-content;
+}
+.menu-sub-main-div1{
+    max-width: 29.5%;
+    height: 75px;
 }
 .menu-label {
     height: 25%;
+    max-width: 100%;
 }
 .menu-input {
     height: 58%;
+    max-width: 100%;
 }
 .menu-radio-main {
     height: 65px;
