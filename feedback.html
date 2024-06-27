@@ -29,33 +29,53 @@
     <!-- Navbar Ended -->
 
     <!-- Feedback banner started -->
-     <div class="feedback-banner-image overflow-hidden">
-        <figure>
-            <img src="./Assets/feedback-banner.webp" alt="logo" class="w-100">
-        </figure>
-     </div>
-     <div class="banner-text overflow-hidden flex-col justify-content-center ">
-        <p class="text-white text-center">Salt'n Pepper</p>
-        <h2 class="text-white text-center">Feedback</h2>
-        <p class="text-white text-center">We'd Love To Hear From You!</p>
-     </div>
+        <div class="feedback-banner w-100">
+            <div class="banner-figure">
+                <figure>
+                    <img src="./Assets/feedback-banner.webp" alt="logo" class="w-100">
+                </figure>
+            </div>
+            
+            <div class="banner-text d-flex flex-wrap flex-column justify-content-center">
+                <div>
+                    <p class="text-white text-center">Salt'n Pepper</p>
+                </div>
+                <div>
+                    <h2 class="text-white text-center">Feedback</h2>
+                </div>
+                <div>
+                    <p class="text-white text-center">We'd Love To Hear From You!</p>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="banner-text overflow-hidden d-flex flex-wrap flex-column justify-content-center ">
+            <div>
+                <p class="text-white text-center">Salt'n Pepper</p>
+            </div>
+            <div>
+                <h2 class="text-white text-center">Feedback</h2>
+            </div>
+            <div>
+                <p class="text-white text-center">We'd Love To Hear From You!</p>
+            </div>
+        </div> -->
     <!-- Feedback Banner Ended -->
 
     <!-- Feedback Form Started -->
         <!-- heading started -->
         <div class="feedback-heading d-flex flex-wrap ">
-            <div class="heading-left w-50 ">
+            <div class="heading-left">
                 <p class="text-white fs-3 text-center">Your feedback is important to us and we greatly appreciate you filling out the comment form below. We look forward to hearing from you!</p>
             </div>
-            <div class="heading-right w-50">
+            <div class="heading-right">
 
             </div>
         </div>
         <!-- heading ended -->
         
         <!-- feedback div started -->
-        <div class="feedback-heading d-flex flex-wrap mt-5 ">
-            <div class="heading-left d-flex flex-wrap direction-col justify-content-center row-gap-4">
+        <div class="feedback-heading-main mt-5 ">
+            <div class="heading-left-main d-flex flex-wrap direction-col justify-content-center row-gap-4">
                 
                 <!-- <form action=""> -->
                 <!-- foodservice started -->
@@ -154,15 +174,6 @@
                 </div>
                 <!-- suggestions ended -->
 
-                <!-- favourite items started -->
-                
-                <!-- <div class="d-flex flex-wrap w-100 mb-n5 border">
-                    <div class="w-100">
-                        <p class="text-white fs-2">Kindly indicate our favourite items from our menu.</p>
-                    </div>
-                </div> -->
-                <!-- favourite items started -->
-
                 <!-- menu started -->
                 <div class="menu-main-div d-flex flex-wrap column-gap-5">
                     <div class="menu-sub-main-div d-flex flex-wrap">
@@ -171,73 +182,63 @@
                     <div class="menu-sub-main-div1">
                         <label for="" class="text-white fs-5 menu-label">1.</label>
                         <br />
-                        <input type="text" class="menu-input border-0 rounded w-100 fs-2">
+                        <input type="text" class="menu-input border-0 rounded fs-2">
                     </div>
                     
                     <div class="menu-sub-main-div1">
                         <label for="" class="text-white fs-5 menu-label">1.</label>
                         <br />
-                        <input type="text" class="menu-input border-0 rounded w-100 fs-2">
+                        <input type="text" class="menu-input border-0 rounded fs-2">
                     </div>
                     
                     <div class="menu-sub-main-div1">
                         <label for="" class="text-white fs-5 menu-label">1.</label>
                         <br />
-                        <input type="text" class="menu-input border-0 rounded w-100 fs-2">
+                        <input type="text" class="menu-input border-0 rounded fs-2">
                     </div>
                 </div>
-                <!-- menu ended -->
 
-                <!-- menu satisfaction started -->
-                <!-- <div class="d-flex flex-wrap w-100">
-                    <div class="w-100">
-                        <p class="text-white fs-2">Are you satisfied with out current menu?</p>
-                    </div>
-                </div> -->
                 
-                <div class="menu-radio-main d-flex flex-wrap w-100">
-                    <div class="w-100 flex-wrap d-flex">
-                        <div class="w-100">
-                            <p class="text-white fs-2">Are you satisfied with our current menu?</p>
-                        </div>
+                
+                <div class="menu-radio-main d-flex flex-wrap">
+                    <div class="menu-radio-sub-main flex-wrap d-flex">
+                        <p class="text-white fs-2">Are you satisfied with our current menu?</p>
                     </div>
 
-                    <div class="h-100 w-25">
+                    <div class="radio-button">
                         <input type="radio" >
                         <label for="" class="text-white fs-4 ps-2">Yes</label>
                     </div>
                     
-                    <div class="h-100 w-50">
+                    <div class="radio-button">
                         <input type="radio">
                         <label for="" class="text-white fs-4 ps-2">No</label>
                     </div>
                 </div>
-                <!-- menu satisfaction ended -->
+                <!-- menu ended -->
 
                 <!-- items to add started -->
                 
-                <div class="menu-main-div w-100 d-flex flex-wrap column-gap-5">
-                    <div class="d-flex flex-wrap w-100 h-25">
-                        <div class="w-100 h-100">
+                <div class="menu-main-div d-flex flex-wrap column-gap-5">
+                    <div class="menu-sub-main-div d-flex flex-wrap">
                             <p class="text-white fs-2">Kindly indicate our favourite items from our menu.</p>
-                        </div>
                     </div>
-                    <div class="menu-sub-main-div h-75">
+                    <div class="menu-sub-main-div1">
                         <label for="" class="text-white fs-5 menu-label">1.</label>
                         <br />
-                        <input type="text" class="menu-input border-0 rounded w-100 fs-2">
-                    </div>
-                    
-                    <div class="menu-sub-main-div h-75">
-                        <label for="" class="text-white fs-5 menu-label">1.</label>
-                        <br />
-                        <input type="text" class="menu-input border-0 rounded w-100 fs-2">
+                        <input type="text" class="menu-input border-0 rounded fs-2">
                     </div>
                     
-                    <div class="menu-sub-main-div h-75">
+                    <div class="menu-sub-main-div1">
                         <label for="" class="text-white fs-5 menu-label">1.</label>
                         <br />
-                        <input type="text" class="menu-input border-0 rounded w-100 fs-2">
+                        <input type="text" class="menu-input border-0 rounded fs-2">
+                    </div>
+                    
+                    <div class="menu-sub-main-div1">
+                        <label for="" class="text-white fs-5 menu-label">1.</label>
+                        <br />
+                        <input type="text" class="menu-input border-0 rounded fs-2">
                     </div>
                 </div>
                 <!-- Items to add ended-->
@@ -278,7 +279,7 @@
             
             
             
-            <div class="heading-right d-flex flex-wrap direction-col row-gap-4">
+            <div class="heading-right-main d-flex flex-wrap direction-col row-gap-4">
 
                 <!-- foodcults started -->
                 <div class="food-consult-main-div d-flex flex-wrap w-100">
