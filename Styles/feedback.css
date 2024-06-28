@@ -58,24 +58,20 @@ html {
 /* heading started */
 .feedback-heading {
     margin: 0px 85px;
-    border: 2px solid green;
 }
 .heading-left {
     padding: 0px 10px;
     border-right: 1px dashed #ffffff;
     flex-basis: 50%;
-    border: 2px solid purple;
 }
 .heading-right {
     flex-basis: 50%;
-    border: 2px solid yellow;
 }
 /* heading ended */
 
 /* feedback  div started */
 .feedback-heading-main {
     margin: 0px 85px;
-    border: 2px solid green;
     display: flex;
     flex-wrap: wrap;
 }
@@ -83,12 +79,10 @@ html {
     padding: 0px 15px;
     border-right: 1px dashed #ffffff;
     flex-basis: 50%;
-    border: 2px solid purple;
 }
 .heading-right-main {
     flex-basis: 50%;
     padding: 0px 15px;
-    border: 2px solid yellow;
 }
 
 /* food service started */
@@ -152,17 +146,14 @@ html {
 .menu-radio-main {
     width: 100%;
     height:fit-content;
-    border: 2px solid red;
 }
 .menu-radio-sub-main {
     height: fit-content;
     width: 100%;
-    border: 2px solid green
 }
 .radio-button {
     width: 25%;
     height: 35px;
-    border: 2px solid purple;
 }
 /* menu ended */
 
@@ -176,8 +167,6 @@ html {
 }
 .social-sub-main-div {
     width: fit-content;
-    border: 2px solid purple;
-
 }
 /* social media pages ended */
 
@@ -195,3 +184,88 @@ html {
 }
 
 /* feedback form ended */
+
+/* Footer Started */
+.grandcontainer5 {
+    padding: 70px 0px 0px 0px;
+    row-gap: 25px;
+    position: relative;
+    top: -400px;
+}
+footer {
+    background-color: #0f0f0f;
+    height: 72.5vh;
+    overflow: hidden;
+}
+.slogob {
+    position: relative;
+    left: 30px;
+    top: 60px;
+}
+hr {
+    color: #222222;
+    font-weight: lighter;
+    width: 98%;
+    margin: 0 auto;
+    position: relative;
+    top: -350px;
+}
+.base {
+    position: relative;
+    top: -350px;
+}
+.box7 {
+    width: 450px;
+    height: 304px;
+    word-spacing: 2px;
+}
+.box8 {
+    width: 150px;
+    height: 304px;
+}
+.box9 {
+    width: 250px;
+    height: 304px;
+}
+.box10 {
+    width: 250px;
+    height: 304px;
+}
+.img-logo {
+    width: 140px;
+    height: 64px;
+    margin-bottom: 25px;
+}
+.pf1 {
+    padding-bottom: 24px;
+}
+.pf2 {
+    padding-bottom: 24px;
+}
+.pf3 {
+    padding-bottom: 16px;
+}
+.logos {
+    color: #ffffff;
+    background-color: #ed1c24;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 25px;
+}
+.logosf {
+    color: #ffffff;
+    background-color: #ed1c24;
+    font-size: 20px;
+    padding: 10px 14px;
+    border-radius: 25px;
+}
+.imgf {
+    margin-top: 15px;
+}
+.f1 {
+    width: 80%;
+}
+.f2{
+    margin: 10px 0px;
+}
+/* Footer Ended */
