@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #000000;
+}
+html {
+    font-size: 62.5%;
+}
+@font-face {
+    font-family: aperculight;
+    src: url(../Fonts/Apercu\ Light.otf);
+}
+
+/* NAVBAR STARTED */
+.icon{
+    background-color: #ffffff;
+    color: #ed1c24;
+}
+.orderbutton {
+    background-color: #ed1c24;
+}
+/* NAVBAR ENDED */
+
+/* form started */
+.form-main-div {
+    
+}
+.form-sub-main-div {
+
+}
+/* form ended */
