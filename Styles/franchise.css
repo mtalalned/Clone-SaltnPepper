@@ -26,9 +26,27 @@ html {
 
 /* form started */
 .form-main-div {
-    
+    border: 2px solid red;
+    margin: 0px 110px;
 }
 .form-sub-main-div {
-
+    border: 2px solid green;
+    width: 48.65%;
 }
+label {
+    height: fit-content;
+}
+input {
+    height: 50px;
+}
+button {
+    padding: 15px 65px;
+    background-color: #ed1c24;
+}
+main > :nth-child(1) {
+    font-family: butler;
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
 /* form ended */
