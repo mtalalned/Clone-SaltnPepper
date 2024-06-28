@@ -25,13 +25,19 @@ html {
 /* NAVBAR ENDED */
 
 /* form started */
+main > :nth-child(1) {
+    font-family: butler;
+    font-size: 4rem;
+    font-weight: bolder;
+    margin-top: 50px;
+}
 .form-main-div {
     border: 2px solid red;
     margin: 0px 110px;
 }
 .form-sub-main-div {
     border: 2px solid green;
-    width: 48.65%;
+    min-width: 48.65%;
 }
 label {
     height: fit-content;
@@ -43,10 +49,90 @@ button {
     padding: 15px 65px;
     background-color: #ed1c24;
 }
-main > :nth-child(1) {
-    font-family: butler;
-    font-size: 4rem;
-    font-weight: bolder;
-}
 
 /* form ended */
+
+/* Footer Started */
+.grandcontainer5 {
+    padding: 70px 0px 0px 0px;
+    row-gap: 25px;
+    position: relative;
+    top: -400px;
+}
+footer {
+    background-color: #0f0f0f;
+    height: 72.5vh;
+    overflow: hidden;
+}
+.slogob {
+    position: relative;
+    left: 30px;
+    top: 60px;
+}
+hr {
+    color: #222222;
+    font-weight: lighter;
+    width: 98%;
+    margin: 0 auto;
+    position: relative;
+    top: -350px;
+}
+.base {
+    position: relative;
+    top: -350px;
+}
+.box7 {
+    width: 450px;
+    height: 304px;
+    word-spacing: 2px;
+}
+.box8 {
+    width: 150px;
+    height: 304px;
+}
+.box9 {
+    width: 250px;
+    height: 304px;
+}
+.box10 {
+    width: 250px;
+    height: 304px;
+}
+.img-logo {
+    width: 140px;
+    height: 64px;
+    margin-bottom: 25px;
+}
+.pf1 {
+    padding-bottom: 24px;
+}
+.pf2 {
+    padding-bottom: 24px;
+}
+.pf3 {
+    padding-bottom: 16px;
+}
+.logos {
+    color: #ffffff;
+    background-color: #ed1c24;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 25px;
+}
+.logosf {
+    color: #ffffff;
+    background-color: #ed1c24;
+    font-size: 20px;
+    padding: 10px 14px;
+    border-radius: 25px;
+}
+.imgf {
+    margin-top: 15px;
+}
+.f1 {
+    width: 80%;
+}
+.f2{
+    margin: 10px 0px;
+}
+/* Footer Ended */
