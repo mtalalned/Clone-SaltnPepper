@@ -401,7 +401,7 @@ img {
 }
 footer {
     background-color: #0f0f0f;
-    height: 68vh;
+    height: 72.5vh;
     overflow: hidden;
 }
 .slogob {
@@ -415,27 +415,27 @@ hr {
     width: 98%;
     margin: 0 auto;
     position: relative;
-    top: -375px;
+    top: -350px;
 }
 .base {
     position: relative;
-    top: -375px;
+    top: -350px;
 }
 .box7 {
-    width: 35%;
+    width: 450px;
     height: 304px;
     word-spacing: 2px;
 }
 .box8 {
-    width: 15%;
+    width: 150px;
     height: 304px;
 }
 .box9 {
-    width: 15%;
+    width: 250px;
     height: 304px;
 }
 .box10 {
-    width: 15%;
+    width: 250px;
     height: 304px;
 }
 .img-logo {
