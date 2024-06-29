@@ -1,74 +1,13 @@
-/* NAV Bar Started */
-.nav-main-div {
-    column-gap: 25px;
-    row-gap: 0px;
-    width: 100%;
-    align-content: center;
-    align-items: center;
-}
-.nav-sub-main-div1 {
-    width: 12.5%;
-}
-.logo {
-    width: 100%;
-}
-.nav-sub-main-div2 {
-    width: 55%;
-    height: auto;
-    align-content: center;
-}
-ul {
-    width: 100%;
-    row-gap: 45px;
-}
-ul>li{
-    font-size: 1.6rem;
-    padding: 0px 36px 0px 0px;
-}
-ul :nth-child(6){
-    padding-right: none;
-}
-li>a {
-    text-decoration: none;
-    color: #ffffff;
-    font-family: Aperculight;
-    font-size: 1.6rem;
-}
-
-ul {
-    align-items: center;
-}
-header {
-    padding: 8px 0px;
-}
-.getbutton{
- border: 1px solid #ffffff;
- padding: 18px 16.5px;
- font-size: 14px;
- border-radius: 50px;
- text-decoration: none;
- color: #ffffff;
-}
-.orderbutton {
-    border: 1px solid #ed1c24;
-    background-color: #ed1c24;
-    padding: 18px 16.5px;
-    font-size: 14px;
-    border-radius: 50px;
-    margin-left: -25px;
-    text-decoration: none;
-    color: #ffffff;
-}
+/* NAVBAR STARTED */
 .icon{
-    width: 14px;
-    height: 16px;
     background-color: #ffffff;
     color: #ed1c24;
-    margin: 0px 0px 0px 7px;
-    padding: 6px 7px;
-    border-radius: 16px;
 }
-/* NAV Bar Ended */
+.orderbutton {
+    background-color: #ed1c24;
+}
+/* NAVBAR ENDED */
+
 
 /* Banner Started  */
 .banner {
