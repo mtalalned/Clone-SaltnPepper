@@ -32,17 +32,18 @@ main > :nth-child(1) {
     margin-top: 50px;
 }
 .form-main-div {
-    border: 2px solid red;
     margin: 0px 110px;
 }
 .form-sub-main-div {
-    border: 2px solid green;
     min-width: 48.65%;
 }
 label {
     height: fit-content;
 }
 input {
+    height: 50px;
+}
+select {
     height: 50px;
 }
 button {

@@ -109,7 +109,8 @@ footer {
     top: 60px;
 }
 hr {
-    color: #525252;
+    background-color: #222222;
+    font-weight: lighter;
     width: 98%;
     margin: 0 auto;
     position: relative;
