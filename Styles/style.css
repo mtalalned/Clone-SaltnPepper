@@ -371,102 +371,34 @@ img {
 /* FOOTER STARTED */
 .footer-main {
     font-family: Aperculight;
-    /* padding: 0px 30px; */
+    padding-top: 75px;
+    position: relative;
+    overflow: hidden;
 }
-footer p {
+.footer-main::before {
+    content: '';
+    background-image: url(../Assets/S-Footer.webp);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 8%;
+    left: 5%;
+}
+.footer-sub-main-div {
+    position: relative;
+}
+footer p, a {
     color:#FFFFFFB3;;
+}
+footer > :nth-child(1) > :nth-child(4) p a {
+    background-color: #ed1c24;
+    border-radius: 35px;
 }
 .col-md-11 {
     border-top: 1px solid #373737;
 }
-
 /* FOOTER ENDED */
-
-
-/* Footer Started */
-.grandcontainer5 {
-    padding: 70px 0px 0px 0px;
-    row-gap: 25px;
-    position: relative;
-    top: -400px;
-}
-footer {
-    background-color: #0f0f0f;
-    height: 72.5vh;
-    overflow: hidden;
-}
-.slogob {
-    position: relative;
-    left: 30px;
-    top: 60px;
-}
-hr {
-    color: #222222;
-    font-weight: lighter;
-    width: 98%;
-    margin: 0 auto;
-    position: relative;
-    top: -350px;
-}
-.base {
-    position: relative;
-    top: -350px;
-}
-.box7 {
-    width: 450px;
-    height: 304px;
-    word-spacing: 2px;
-}
-.box8 {
-    width: 150px;
-    height: 304px;
-}
-.box9 {
-    width: 250px;
-    height: 304px;
-}
-.box10 {
-    width: 250px;
-    height: 304px;
-}
-.img-logo {
-    width: 140px;
-    height: 64px;
-    margin-bottom: 25px;
-}
-.pf1 {
-    padding-bottom: 24px;
-}
-.pf2 {
-    padding-bottom: 24px;
-}
-.pf3 {
-    padding-bottom: 16px;
-}
-.logos {
-    color: #ffffff;
-    background-color: #ed1c24;
-    font-size: 20px;
-    padding: 10px;
-    border-radius: 25px;
-}
-.logosf {
-    color: #ffffff;
-    background-color: #ed1c24;
-    font-size: 20px;
-    padding: 10px 14px;
-    border-radius: 25px;
-}
-.imgf {
-    margin-top: 15px;
-}
-.f1 {
-    width: 80%;
-}
-.f2{
-    margin: 10px 0px;
-}
-/* Footer Ended */
 
 @media (max-width: 1100px){
     .container-fluid a:nth-last-of-type(2) {
