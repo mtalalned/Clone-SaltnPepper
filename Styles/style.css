@@ -391,12 +391,65 @@ img {
 footer p, a {
     color:#FFFFFFB3;;
 }
-footer > :nth-child(1) > :nth-child(4) p a {
+footer > :nth-child(1) > :nth-child(6) p a {
     background-color: #ed1c24;
     border-radius: 35px;
 }
 .col-md-11 {
     border-top: 1px solid #373737;
+}
+.accordion-button,
+.accordion-item,
+.accordion-body {
+    border-radius: 0;
+}
+.accordion-button,
+.accordion-item {
+    border: none;
+}
+.accordion {
+    background-color: red;
+}
+.accordion-item {
+    background-color: red;
+}
+.accordion-button {
+    background-color: red;
+    color: white;
+}
+.accordion-body {
+    background-color: red;
+    color: white;
+}
+.accordion-button:focus,
+.accordion-button:focus-visible,
+.accordion-button:active,
+.accordion-button:not(.collapsed) {
+    background-color: red; 
+    color: white;
+    border-color: red; 
+    outline: none; 
+    box-shadow: none; 
+}
+.accordion-button::after {
+    display: none; 
+}
+.accordion-button::before {
+    content: '+'; 
+    font-size: 3rem;
+    color: #ffffff; 
+    position: absolute; 
+    right: 0.5rem; 
+}
+.accordion-button:not(.collapsed)::before {
+    content: '−'; 
+    font-size: 3rem;
+    color: #ffffff; 
+    position: absolute; 
+    right: 0.5rem; 
+}
+.accordion-button {
+    position: relative;
 }
 /* FOOTER ENDED */
 
