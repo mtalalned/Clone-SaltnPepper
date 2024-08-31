@@ -369,14 +369,14 @@ img {
 /* Social Feed Ended */
 
 /* FOOTER STARTED */
-.footer-main {
+footer {
     font-family: 'Aperculight';
     padding-top: 75px;
     position: relative;
     overflow: hidden;
     background-color: #0f0f0f;
 }
-.footer-main::before {
+footer::before {
     content: '';
     background-image: url(../Assets/S-Footer.webp);
     background-repeat: no-repeat;
@@ -392,29 +392,35 @@ img {
 footer p, a {
     color:#FFFFFFB3;;
 }
-footer > :nth-child(1) > :nth-child(6) p > :nth-child(1)  {
+
+.footer-sub-main-div > :nth-child(6) p > :nth-child(1)  {
     background-color: #ed1c24;
-    font-size: 1em;
+    font-size: 1.5rem;
     text-decoration: none;
     border-radius: 35px;
-    padding: 10px 15px 10px 15px;
+    padding: 8px 12px 8px 12px;
 }
-footer > :nth-child(1) > :nth-child(6) p > :nth-child(2)  {
+.footer-sub-main-div > :nth-child(6) p > :nth-child(2)  {
     background-color: #ed1c24;
-    font-size: 1em;
+    font-size: 1.5rem;
     text-decoration: none;
     border-radius: 35px;
-    padding: 10px 13px 10px 13px;
+    padding: 8px 11px 8px 11px;
+    margin-left: -2.5px;
 }
-footer > :nth-child(1) > :nth-child(6) p > :nth-child(3)  {
+.footer-sub-main-div > :nth-child(6) p > :nth-child(3)  {
     background-color: #ed1c24;
-    font-size: 1em;
+    font-size: 1.5rem;
     text-decoration: none;
     border-radius: 35px;
-    padding: 10px 12px 10px 12px;
+    padding: 8px 10px 8px 10px;
+    margin-left: -2.5px;
+
 }
-.col-sm-11 {
-    border-top: 1px solid #373737;
+.footer-sub-main-div-2 {
+    border-top: 1px solid #494848;
+    width: 90%;
+    margin: 0 auto;
 }
 .accordion {
     background-color: #0f0f0f;
@@ -463,7 +469,7 @@ footer > :nth-child(1) > :nth-child(6) p > :nth-child(3)  {
     right: 0.5rem; 
 }
 .accordion-button:not(.collapsed)::before {
-    content: '−'; 
+    content: '-'; 
     font-size: 3rem;
     color: #ffffff; 
     position: absolute; 
@@ -473,6 +479,13 @@ footer > :nth-child(1) > :nth-child(6) p > :nth-child(3)  {
     position: relative;
 }
 /* FOOTER ENDED */
+
+@media (min-width: 992px){
+    .footer-main {
+        padding-left: 75px;
+    }
+    
+}
 
 @media (max-width: 1100px){
     .container-fluid a:nth-last-of-type(2) {
