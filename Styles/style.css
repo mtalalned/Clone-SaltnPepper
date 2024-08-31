@@ -370,10 +370,11 @@ img {
 
 /* FOOTER STARTED */
 .footer-main {
-    font-family: Aperculight;
+    font-family: 'Aperculight';
     padding-top: 75px;
     position: relative;
     overflow: hidden;
+    background-color: #0f0f0f;
 }
 .footer-main::before {
     content: '';
@@ -391,45 +392,65 @@ img {
 footer p, a {
     color:#FFFFFFB3;;
 }
-footer > :nth-child(1) > :nth-child(6) p a {
+footer > :nth-child(1) > :nth-child(6) p > :nth-child(1)  {
     background-color: #ed1c24;
+    font-size: 1em;
+    text-decoration: none;
     border-radius: 35px;
+    padding: 10px 15px 10px 15px;
 }
-.col-md-11 {
+footer > :nth-child(1) > :nth-child(6) p > :nth-child(2)  {
+    background-color: #ed1c24;
+    font-size: 1em;
+    text-decoration: none;
+    border-radius: 35px;
+    padding: 10px 13px 10px 13px;
+}
+footer > :nth-child(1) > :nth-child(6) p > :nth-child(3)  {
+    background-color: #ed1c24;
+    font-size: 1em;
+    text-decoration: none;
+    border-radius: 35px;
+    padding: 10px 12px 10px 12px;
+}
+.col-sm-11 {
     border-top: 1px solid #373737;
 }
-.accordion-button,
-.accordion-item,
-.accordion-body {
-    border-radius: 0;
-}
-.accordion-button,
-.accordion-item {
-    border: none;
-}
 .accordion {
-    background-color: red;
+    background-color: #0f0f0f;
+    background: transparent;
 }
 .accordion-item {
-    background-color: red;
+    background-color: #0f0f0f;
+    border: none;
+    border-radius: 0;
+    background: transparent;
 }
 .accordion-button {
-    background-color: red;
-    color: white;
+    background-color: #0f0f0f;
+    color: #ffffff;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+
 }
 .accordion-body {
-    background-color: red;
-    color: white;
+    background-color: #0f0f0f;
+    color: #ffffff;
+    border-radius: 0;
+    background: transparent;
+
 }
 .accordion-button:focus,
 .accordion-button:focus-visible,
 .accordion-button:active,
 .accordion-button:not(.collapsed) {
-    background-color: red; 
-    color: white;
-    border-color: red; 
+    background-color: #0f0f0f; 
+    color: #ffffff;
+    border-color: #0f0f0f; 
     outline: none; 
     box-shadow: none; 
+    background: transparent;
 }
 .accordion-button::after {
     display: none; 
