@@ -421,6 +421,7 @@ footer p, a {
     border-top: 1px solid #494848;
     width: 90%;
     margin: 0 auto;
+    position: relative;
 }
 .accordion {
     background-color: #0f0f0f;
