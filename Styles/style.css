@@ -52,10 +52,9 @@ html {
 
 /* BRANDS STARTED */
 .brand-main-div {
-    padding: 75px 0px 125px 0px;
+    padding: 75px 30px 125px 30px;
 }
-.brand-main-div div h1 , p {
-    font-family: 'Aperculight';
+.brand-main-div div h1 {
     font-size: 4rem;
 }
 .brand-main-div div h1 span {
@@ -63,13 +62,11 @@ html {
     font-size: 5rem;
 }
 .brand-main-div div p {
-    /* font-family: 'Aperculight'; */
     color:#b7b7b7;
 }
 .brand-main-div img {
     padding: 20px 15px;
     max-width: 260px;
-    /* border: 1px solid #494848; */
 }
 .brand-main-div button {
     padding: 10px 45px;
@@ -77,63 +74,6 @@ html {
 }
 /* BRANDS ENDED */
 
-
-
-
-
-
-
-/* Brands Started */
-.container {
-    row-gap: 35px;
-}
-.Brands {
-    padding-top: 60px;
-    padding-bottom: 175px;
-}
-h2 {
-    color: #ffffff;
-    font-family: "Prolight";
-    font-size: 40px;
-    text-align: center;
-
-}
-.p22 {
-    margin-bottom: 45px;
-    margin-top: 10px;
-}
-.box {
-    background-color: #ffffff;
-    width: 250px;
-    height: 140px;
-    padding: 25px 19px;
-    margin: 0px 19px;
-    border-radius: 3.5px;
-}
-.brand-button1 {
-    text-decoration: none;
-    font-family: "Aperculight";
-    font-size: 14px;
-    color: #ffffff;
-    border: 1px solid #373737;
-    width: 172px;
-    padding: 18px 45px;
-    border-radius: 50px;
-}
-.brand-button {
-    text-decoration: none;
-    font-family: "Aperculight";
-    font-size: 14px;
-    color: #ffffff;
-    border: 1px solid #373737;
-    padding: 18px 55px;
-    border-radius: 50px;
-}
-.figbrand {
-    text-align: center;
-    margin: 45px 38px 0px;
-}
-/* Brands Ended */
 
 /* Franchises Started */
 .Franchises {
@@ -521,6 +461,11 @@ footer p, a {
 @media (max-width: 1100px){
     .container-fluid a:nth-last-of-type(2) {
         margin-right: 20px;
+    }
+}
+@media (max-width: 560px) {
+    .brand-main-div {
+        padding: 35px 25px 75px 25px;
     }
 }
 
