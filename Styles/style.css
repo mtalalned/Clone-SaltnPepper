@@ -14,6 +14,10 @@ html {
     font-family: "Prolight";
     src: url(../Fonts/ApercuPro-ExtraLight.ttf);
 }
+@font-face {
+    font-family: "futurak";
+    src: url(../Fonts/futurak.ttf);
+}
 
 
 /* NAVBAR STARTED */
@@ -46,12 +50,38 @@ html {
 /* NAVBAR ENDED */
 
 
-/* Banner Started  */
-.banner {
-    width: 100%;
-    margin: 0 auto;
+/* BRANDS STARTED */
+.brand-main-div {
+    padding: 75px 0px 125px 0px;
 }
-/* Banner Ended */
+.brand-main-div div h1 , p {
+    font-family: 'Aperculight';
+    font-size: 4rem;
+}
+.brand-main-div div h1 span {
+    font-family: 'futurak';
+    font-size: 5rem;
+}
+.brand-main-div div p {
+    /* font-family: 'Aperculight'; */
+    color:#b7b7b7;
+}
+.brand-main-div img {
+    padding: 20px 15px;
+    max-width: 260px;
+    /* border: 1px solid #494848; */
+}
+.brand-main-div button {
+    padding: 10px 45px;
+    border: 1px solid #373737;
+}
+/* BRANDS ENDED */
+
+
+
+
+
+
 
 /* Brands Started */
 .container {
