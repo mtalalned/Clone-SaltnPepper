@@ -75,88 +75,54 @@ html {
 /* BRANDS ENDED */
 
 
-/* Franchises Started */
-.Franchises {
+/* RESTAURANT FRANCHISE STARTED */
+.restaurant-franchise-main-div {
     background-color: #0f0f0f;
-    width: 0 auto;
-    max-height: 195vh;
-    overflow: hidden;
-}
-.Slogo {
     position: relative;
-    top: 25px;
-    left: 73%;
+    padding: 75px 5px;
+    overflow-x: hidden;
 }
-.franchise {
-    position: relative;
-    top: -400px;
+.restaurant-franchise-main-div::before {
+    content: url(../Assets/S\ -\ Logo.webp);
+    position: absolute;
+    top: 40px;
+    right: 40px;
 }
-.franch1 {
-    text-align: center;
+.restaurant-franchise-main-div .row .col-12 > h2 {
+    font-family: 'futurak';
 }
-.franch2 {
-    margin-bottom: 48px;
-    margin-top: 12px;
+.restaurant-franchise-main-div .row .col-12 > h3 {
+    font-family: 'Aperculight';
 }
-
-.grand-container {
-    padding: 0px 70px;
-    row-gap: 20px;;
-    position: relative;
-    top: -410px;
+.restaurant-franchise-main-div .row .col-12 > h2 , h3 {
+    font-size: 5rem;
 }
-.container1 {
-    justify-content: center;
-    row-gap: 25px;
+.restaurant-franchise-main-div .row .col-12 > p {
+    color: #b7b7b7;
 }
-.p1 {
+.restaurant-franchise-main-div .row .col-12 .col-md-5 > :nth-child(1) {
     letter-spacing: 8px;
-    margin-bottom: 7px;
-}
-.p2 {
-    margin-bottom: 25px;
-}
-.p2a {
-
-}
-.p3 {
-    margin-bottom: 10px;
-}
-.p3a {
-    margin-bottom: 45px;
 }
 
-.a4 {
-    text-decoration: none;
+.restaurant-franchise-main-div .row .col-12 .col-md-5 > :nth-child(2) {
+    font-size: 3.25rem;
+    font-family: 'futurak';
+}
+.restaurant-franchise-main-div .row .col-12 .col-md-5 > :nth-child(2) > span {
+    font-family: 'Aperculight';
+}
+.restaurant-franchise-main-div .row .col-12 .col-md-5 > :nth-child(3), :nth-child(4) {
+    color: #b7b7b7;
+}
+.restaurant-franchise-main-div .row .col-12 .col-md-5 > :nth-child(2) > span {
+    font-family: 'Aperculight';
+}
+.restaurant-franchise-main-div .row .col-12 .col-md-5 > a {
     border: 1px solid #4e4e4e;
-    padding: 15px 20px;
-    border-radius: 25px;
-    font-family: Poppins;
-    font-size: 14px;
-    color: #ffffff;
 }
-.icon1{
-    width: 14px;
-    height: 16px;
-    background-color: #ffffff;
-    color: #ed1c24;
-    margin: 0px 0px 0px 7px;
-    padding: 8px 10px;
-    border-radius: 16px;
-}
+/* RESTAURANT FRANCHISE ENDED */
 
-.box1 {
-    width: 560px;
-    height: 300px;
-    padding: 0px 15px;
-}
 
-.image-franchise {
-    width: 100%;
-    height: 100%;
-}
-
-/* Franchises End */
 
 /* Express Franchises Start */
 .ExpressFranchise {
