@@ -124,6 +124,55 @@ html {
 
 
 
+
+/* EXPRESS FRANCHISES STARTED */
+.express-main-div {
+    padding: 70px 0px;
+    position: relative;
+    overflow-x: hidden;
+}
+.express-main-div::before {
+    content: '';
+    background-image: url(../Assets/R-logo.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 400px;
+    height: 470px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+.express-sub-main-div h2 {
+    font-family: 'futurak';
+    font-size: 5rem;
+}
+.express-sub-main-div h3 {
+    font-family: 'Aperculight';
+    font-size: 5rem;
+}
+.express-card-body {
+    flex-basis: 24%;
+    min-width: 300px;
+}
+.express-card-body div > :nth-child(1){
+    letter-spacing: 6px;
+}
+.express-card-body div > :nth-child(2){
+    font-family: 'futurak';
+    font-size: 2.25rem;
+}
+.express-card-body div > :nth-child(2) span{
+    font-family: 'Aperculight';
+}
+.express-card-body div a {
+    border: 1px solid #4e4e4e;
+}
+/* EXPRESS FRANCHISES ENDED */
+
+
+
+
+
 /* Express Franchises Start */
 .ExpressFranchise {
     width: 100%;
@@ -429,15 +478,14 @@ footer p, a {
         margin-right: 20px;
     }
 }
-@media (max-width: 560px) {
-    .brand-main-div {
-        padding: 35px 25px 75px 25px;
-    }
-}
-
-@media (max-width: 992px) {
-    .navbar-brand {
-        margin-left: 0px;
+/* @media (max-width: 768px) {
+    .express-card-body {
+        flex-basis: 35%;
+        }
+        } */
+        @media (max-width: 992px) {
+            .navbar-brand {
+                margin-left: 0px;
     }
     .navbar-brand img {
         width: 125px;
@@ -476,4 +524,24 @@ footer p, a {
         border-bottom: 1px solid #ffffff;
         width: 100%;
     }
+}
+
+@media (max-width: 560px) {
+    .brand-main-div {
+        padding: 35px 25px 75px 25px;
+    }
+}
+
+@media (max-width: 460px) {
+    .express-main-div::before {
+        content: '';
+        background-image: url(../Assets/R-logo.webp);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 80%;
+        height: 470px;
+        position: absolute;
+        top: 40px;
+        left: 10%;
+    }    
 }
