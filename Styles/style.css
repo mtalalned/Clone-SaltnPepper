@@ -88,6 +88,9 @@ html {
     top: 40px;
     right: 40px;
 }
+.restaurant-franchise-main-div .row {
+    row-gap: 30px;
+}
 .restaurant-franchise-main-div .row .col-12 > h2 {
     font-family: 'futurak';
 }
@@ -164,7 +167,11 @@ html {
 .express-card-body div > :nth-child(2) span{
     font-family: 'Aperculight';
 }
-.express-card-body div a {
+.express-card-body div :nth-child(4) {
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.express-card-body div :nth-child(5) {
     border: 1px solid #4e4e4e;
 }
 /* EXPRESS FRANCHISES ENDED */
